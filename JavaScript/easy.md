@@ -21,7 +21,7 @@ Ao clicar no titulo você poderá ver um repositório auxiliar com exemplos da l
 
 1º Raul Seixas nasceu a 10.000 anos atrás e afirmou que não havia nada nesse mundo que ele não saiba demais. Crie uma variável que recebe a idade de um ser milenar e imprima "Não tem nada nesse mundo que eu não saiba demais" caso sua idade seja igual ou maior que 10.000 anos e imprima "Ainda existe muita coisa que eu não sei" caso sua idade seja menor que 10.000 nos.
 
-2º João foi comprar um rango no mercado e levou consigo R$30.00. Lá ele comprou leite (R$4.50), pão (R$5.30) e mortandela (R$8,45). Crie uma variável que receberá o valor total de João e outras 3 chamada `leite`, `pao` e `mortandela` que receberá o seu valor respectivo. Em seguida subtraia o falor da compra do João do seu total e imprima na tela o valor gasto para ele e em seguida o seu troco.
+2º João foi comprar um rango no mercado e levou consigo R$30.00. Lá ele comprou leite (R$4.50), pão (R$5.30) e mortadela (R$8,45). Crie uma variável que receberá o valor total de João e outras 3 chamada `leite`, `pao` e `mortadela` que receberá o seu valor respectivo. Em seguida subtraia o valor da compra do João do seu total e imprima na tela o valor gasto para ele e em seguida o seu troco.
 
 3º O IMC é reconhecido como padrão internacional para avaliar o grau de sobrepeso e obesidade. É calculado dividindo o peso (em kg) pela altura elevada (em metros) ao quadrado. Luana deseja automatizar esse processo e pediu sua ajuda. Para isso deve criar duas variáveis, uma para peso e outra para altura. Em seguida imprima na tela `Seu IMC é: X` onde no lugar de X aparecerá o IMC da pessoa.
 
