@@ -68,3 +68,13 @@ Agora com a lista crie um código que verifique se o aluno existe na lista (caso
 ```js
 let caixa = ["Pão", "Mortandela", "Leite", "Ovo", "Manteiga"];
 ```
+
+## [Objeto Literal](https://github.com/SerraZ3/introducao-js-com-node#object-objetos-literais)
+
+1º Luiz estava estudando programação. Ele criou um array onde armazenava, respectivamente em cada posição, o nome, sobrenome, idade, altura e profissão de uma pessoa. Um tempo depois ele aprendeu que existem objetos literais no JS e decidiu passar o array para um sintaxe de objeto. Passe o array abaixo para a sintaxe de objeto.
+
+```js
+var pessoa = ["Roberto Carlos", "Braga", 134, 1.70, "Cantor"];
+```
+
+2º O Super Mercado Paçoquinha pediu por uma nova melhoria no seu projetinho. Dessa vez você tem que além de armazenar em uma lista o nome do produto deve armazenar o preço e a data de compra dele. Crie uma lista com 4 produtos, onde cada um deles deve ter o nome, data de compra e o preço.
