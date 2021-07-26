@@ -78,3 +78,42 @@ var pessoa = ["Roberto Carlos", "Braga", 134, 1.70, "Cantor"];
 ```
 
 2º O Super Mercado Paçoquinha pediu por uma nova melhoria no seu projetinho. Dessa vez você tem que além de armazenar em uma lista o nome do produto deve armazenar o preço e a data de compra dele. Crie uma lista com 4 produtos, onde cada um deles deve ter o nome, data de compra e o preço.
+
+3º No seu trabalho na Google foi lhe dado a missão de alterar o dado do usuário de CEO da empresa. Atualmente os dados dele está como no código abaixo. Você deve alterar o endereço e cadastrar a altura do CEO na variável abaixo. Altere a rua para `Rua dos Bobos` e o número para `0` e adicione a altura de `1.56`.
+
+
+```js
+var ceoGoogle = {
+  nome: "Sundar",
+  sobrenome: "Pichai",
+  cargo: "CEO",
+  rua: "Rua Microsoft",
+  bairro: "Google",
+  numero: 123
+}
+```
+
+4º Você deseja conhecer novas formas de acessa objetos. Tente acessa o objeto acima de uma forma diferente. Para isso você deve criar uma variável que receberá uma string que será o valor de uma das chaves. Em seguida use essa variável para acessar um valor do objeto acima. Depois altere o valor da variável para outra chave e rode seu código novamente!
+
+5º Baseado no exercíco acima, reescreva o código abaixo para acessar o valor imprimesso através de variável, ou seja, não use o artifício do `.`, acesse tudo através de variáveis.
+
+```js
+const produto = {
+  info: {
+    nome: "Camisa",
+    descricao: "Camisa mó da hora",
+    valor: 3.99
+  },
+  categoria:{
+    nome: "Roupa",
+    descricao: "Aqui tem todo tipo de roupa"
+  },
+  quantidade: 5, 
+  criado_em: "10/10/2013"
+}
+console.log(produto.categoria)
+console.log(produto.categoria)
+console.log(produto.info.nome)
+```
+
+6º Na empresa onde você trabalha existe um sistema que gerencia os funcionários. Todo funcionário possui os dados pessoais (nome, sobrenome, idade), endereço (rua, numero, bairro) e cargo. Você deve criar um array chamado `funcionarios` com 3 funcionários, cada posição do array será um funcionário, e cada um deles deve ser um objeto. Em cada um dos funcionários deve contendo a chave `dadosPessoais` (com os valores dos dados pessoais acima), `endereco` (com os valores do endereço acima) e o cargo. Imprima a variável `funcionários` e depois imprima o valor da posição 2.
