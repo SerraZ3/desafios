@@ -69,7 +69,7 @@ Agora com a lista crie um código que verifique se o aluno existe na lista (caso
 let caixa = ["Pão", "Mortandela", "Leite", "Ovo", "Manteiga"];
 ```
 
-## [Objeto Literal](https://github.com/SerraZ3/introducao-js-com-node#object-objetos-literais)
+### [Objeto Literal](https://github.com/SerraZ3/introducao-js-com-node#object-objetos-literais)
 
 1º Luiz estava estudando programação. Ele criou um array onde armazenava, respectivamente em cada posição, o nome, sobrenome, idade, altura e profissão de uma pessoa. Um tempo depois ele aprendeu que existem objetos literais no JS e decidiu passar o array para um sintaxe de objeto. Passe o array abaixo para a sintaxe de objeto.
 
@@ -117,3 +117,26 @@ console.log(produto.info.nome)
 ```
 
 6º Na empresa onde você trabalha existe um sistema que gerencia os funcionários. Todo funcionário possui os dados pessoais (nome, sobrenome, idade), endereço (rua, numero, bairro) e cargo. Você deve criar um array chamado `funcionarios` com 3 funcionários, cada posição do array será um funcionário, e cada um deles deve ser um objeto. Em cada um dos funcionários deve contendo a chave `dadosPessoais` (com os valores dos dados pessoais acima), `endereco` (com os valores do endereço acima) e o cargo. Imprima a variável `funcionários` e depois imprima o valor da posição 2.
+
+
+## [Condicionais](https://github.com/SerraZ3/introducao-js-com-node#condicionais)
+
+### if/else + operators
+
+1º Você possui uma casa de festa para maiores de 18 anos. Crie uma variável chamada `idade` e imprima para maiores de 18 `Pode entrar!` e para menores `Pode entrar não, seu de menor!`
+
+2º Seu chefe possui um coração bom e decidiu dar aumento no salário de todos os funcionário. Ele pediu para você adicionar R$200,00 aos funcionários que possuem mais de 18 anos e R$500,00 para que tem mais de 45 anos. Adicione esse valor no salários dos dois funcionários a baixo usando a estrutura fornecida.
+
+```js
+let funcionario1 = {
+  nome: "Maria Silva",
+  idade: 54,
+  salario: 1700.50
+}
+
+let funcionario2 = {
+  nome: "Roberto Carlos",
+  idade: 23,
+  salario: 1400.70
+}
+```
