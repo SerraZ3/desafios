@@ -81,7 +81,6 @@ var pessoa = ["Roberto Carlos", "Braga", 134, 1.70, "Cantor"];
 
 3º No seu trabalho na Google foi lhe dado a missão de alterar o dado do usuário de CEO da empresa. Atualmente os dados dele está como no código abaixo. Você deve alterar o endereço e cadastrar a altura do CEO na variável abaixo. Altere a rua para `Rua dos Bobos` e o número para `0` e adicione a altura de `1.56`.
 
-
 ```js
 var ceoGoogle = {
   nome: "Sundar",
@@ -118,7 +117,6 @@ console.log(produto.info.nome)
 
 6º Na empresa onde você trabalha existe um sistema que gerencia os funcionários. Todo funcionário possui os dados pessoais (nome, sobrenome, idade), endereço (rua, numero, bairro) e cargo. Você deve criar um array chamado `funcionarios` com 3 funcionários, cada posição do array será um funcionário, e cada um deles deve ser um objeto. Em cada um dos funcionários deve contendo a chave `dadosPessoais` (com os valores dos dados pessoais acima), `endereco` (com os valores do endereço acima) e o cargo. Imprima a variável `funcionários` e depois imprima o valor da posição 2.
 
-
 ## [Condicionais](https://github.com/SerraZ3/introducao-js-com-node#condicionais)
 
 ### if/else + operators
@@ -138,5 +136,71 @@ let funcionario2 = {
   nome: "Roberto Carlos",
   idade: 23,
   salario: 1400.70
+}
+```
+
+3º Seu gerente de projetos deu para você os objetos abaixo com o modelos de funcionário e pediu para você imprimir `O funcionário é veterano` caso o funcionário possua idade entre 35 e 50 anos e receba mais de R$ 2000,00 ou tenha 10 anos de experiencia e imprima `O funcionário é novato` caso o funcionário tenha entre 18 e 35 anos e receba menos de R$ 1700,00 ou tenha menos de 5 anos de experiência.
+
+```js
+// Saída esperada: O funcionário é veterano
+const funcionario1 = {
+  nome: "Luana Souza",
+  idade: 40,
+  anosDeXP: 14,
+  salario: 3050.20
+}
+// Saída esperada: O funcionário é novato
+const funcionario2 = {
+  nome: "Bruce Wayne",
+  idade: 36,
+  anosDeXP: 6
+  salario: 1900.50
+}
+// Saída esperada: O funcionário é novato
+const funcionario3 = {
+  nome: "Luan Santana",
+  idade: 29,
+  anosDeXP: 10
+  salario: 3000.50
+}
+// Saída esperada: O funcionário é novato
+const funcionario4 = {
+  nome: "Peter Parker",
+  idade: 25,
+  anosDeXP: 5
+  salario: 2100
+}
+// Saída esperada: O funcionário é veterano
+const funcionario5 = {
+  nome: "Steve Rogers",
+  idade: 25,
+  anosDeXP: 10,
+  salario: 3050.20
+}
+```
+
+4º Crie uma variável chamada hora onde ela receberá o valor da hora atual (inteiro) e diga se ela está no período da manha (0h a 11h), tarde (12h a 17h) ou noite (18h a 23h).
+
+5º No seu sistema ecommerce existem 3 tipos de usuários, `silver`, `gold` e `diamond`. Crie uma variável e atribua um dos 3 valores e verifique qual o tipo de usuário e imprima, respectivamente, `Usuário simples: Silver`, `Usuário intermediário: Gold` ou `Usuário avançado: Diamond`. Faça esse exercício com ifelse e depois transcreva para switch
+
+6º Reescreve o códio a seguir usando if ternário
+
+```js
+const usuario = {
+  status:true,
+  idade: 18
+}
+if(usuario.status){
+  console.log("Usuário ativo")
+}else{
+  console.log("Usuário desativo")
+}
+
+if(idade < 18){
+  console.log("Usuário menor de idade")
+}else if(idade > 18 && idade < 60 ){
+  console.log("Usuário adulto")
+}else{
+  console.log("Usuário idoso")
 }
 ```
