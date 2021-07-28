@@ -119,8 +119,6 @@ console.log(produto.info.nome)
 
 ## [Condicionais](https://github.com/SerraZ3/introducao-js-com-node#condicionais)
 
-### if/else + operators
-
 1º Você possui uma casa de festa para maiores de 18 anos. Crie uma variável chamada `idade` e imprima para maiores de 18 `Pode entrar!` e para menores `Pode entrar não, seu de menor!`
 
 2º Seu chefe possui um coração bom e decidiu dar aumento no salário de todos os funcionário. Ele pediu para você adicionar R$200,00 aos funcionários que possuem mais de 18 anos e R$500,00 para que tem mais de 45 anos. Adicione esse valor no salários dos dois funcionários a baixo usando a estrutura fornecida.
@@ -203,4 +201,48 @@ if(idade < 18){
 }else{
   console.log("Usuário idoso")
 }
+```
+
+## [Loops](https://github.com/SerraZ3/introducao-js-com-node#la%C3%A7o-de-repeti%C3%A7%C3%A3o)
+
+1º Crie um programa que imprima 1000 números em sequência, um após o outro.
+
+2º O calculo de potência é basicamente a multiplicação de um número `x` por eles mesmo `y` vezes. Um exemplo seria `2³` (dois elevado a três) que é a mesma coisa de `2x2x2`, o número `3` seria o expoente, o resultado seria `2x2x2=8`. Crie variaveis chamadas `numero`, `expoente` e `resultado`, que receberão valores numéricos. Em seguida, crie um loop que calcule o `numero` elevado ao `expoente` e atribua esse valor a `resultado`.
+
+3º Pegue a frase `hasta la vista baby` e imprima cada uma das letras um após a outra no terminal. Use o `for`
+
+4º Você pegou a lista de todos os usuários do banco de dados e decidiu verificar que era do século XX e quem era o século XXI. Percorra o array abaixo com `ForOf` e imprima `Século XX` para quem nasceu de 2000 para baixo e `Século XXI` que nasceu depois de 2000..
+
+
+```js
+const usuarios = [
+  {
+    nome: "Luan Santos",
+    ano: 1999,
+  },
+  {
+    nome: "Roberta",
+    ano: 2002,
+  },
+  {
+    nome: "Pedro",
+    ano: 2000,
+  },
+  {
+    nome: "Claudisney",
+    ano: 1987,
+  },
+  {
+    nome: "Renato",
+    ano: 2005,
+  },
+  {
+    nome: "Maria Juana",
+    ano: 1995,
+  },
+  {
+    nome: "Robertina",
+    ano: 1976,
+  },
+];
 ```
